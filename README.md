@@ -1,6 +1,7 @@
 # Neural_style_transfer
 An implementation of [neural style][paper] in TensorFlow.
-Presentation of [neural style][ppt]
+Presentation of [neural style][ppt].
+
 Style transfer is the technique of recomposing images in the style of other images.
 ## Dependencies
 
