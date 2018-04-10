@@ -22,19 +22,18 @@ Style transfer is the technique of recomposing images in the style of other imag
 * Use a pre-trained VGG-19 (average pooling) to ﬁnd another image simultaneously matches the content of a photograph and the style of a piece of art work.</br> </br>
    ![](./system_architecture.png)
 
-
-## Content representation and loss:
+## Loss
+### Content representation and loss:
 Given a chosen content layer l, the content loss is defined as the Mean Squared Error between the feature map F of our content image C and the feature map P of our generated image Y.   </br>
-![](./lcontent.png)</br>
+
 When this content-loss is minimized, it means that the mixed-image has feature activation in the given layers that are very similar to the activation of the content-image.
 
-## Style representation and loss:
+### Style representation and loss:
 If the feature map is a matrix F, then each entry in the Gram matrix G can be given by: </br>
 
 The loss function for style is quite similar to out content loss, except that we calculate the Mean Squared Error for the Gram-matrices instead of the raw tensor-outputs from the layers.  </br>
 
-
-
+![](./loss.jpg)</br>
 
 
 
