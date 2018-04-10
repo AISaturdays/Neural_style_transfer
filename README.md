@@ -34,6 +34,13 @@ If the feature map is a matrix F, then each entry is in the Gram matrix G  </br>
 The loss function for style is quite similar to out content loss, except that we calculate the Mean Squared Error for the Gram-matrices instead of the raw tensor-outputs from the layers.  </br>
 
 ![](./loss.jpg)</br>
+## Related Papers:
+* A Parametric Texture Model Based on Joint Statistics of Complex Wavelet Coeﬃcients. Portilla, J., & Simoncelli, E. P. Int. J. Comput. Vis. 40, 49-70 (2000)
+
+* Texture Synthesis and The Controlled Generation of Natural Stimuli Using Convolutional Neural Networks. Gatys, L. A., Ecker, A. S., & Bethge, M. NIPS (2015)
+
+* Understanding Deep Image Representations by Inverting Them. Mahendran, A., & Vedaldi, A. CVPR (2015)
+
 
 
 
