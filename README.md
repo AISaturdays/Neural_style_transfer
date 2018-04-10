@@ -9,7 +9,13 @@ Style transfer is the technique of recomposing images in the style of other imag
     matplotlib
     python 3
     
-Use pip to install missing dependencies
+## Examples
+  ![](./output/output1.jpg) </br>
+  ![](./output/output2.jpg) </br>
+  ![](./output/output3.jpg) </br>
+  ![](./image.jpeg) </br>
+  ![](./output/output4.jpg) </br>
+  
 
 
 [paper]: http://arxiv.org/pdf/1508.06576v2.pdf
