@@ -29,7 +29,7 @@ Given a chosen content layer l, the content loss is defined as the Mean Squared 
 When this content-loss is minimized, it means that the mixed-image has feature activation in the given layers that are very similar to the activation of the content-image.
 
 ### Style representation and loss:
-If the feature map is a matrix F, then each entry in the Gram matrix G can be given by: </br>
+If the feature map is a matrix F, then each entry is in the Gram matrix G  </br>
 
 The loss function for style is quite similar to out content loss, except that we calculate the Mean Squared Error for the Gram-matrices instead of the raw tensor-outputs from the layers.  </br>
 
